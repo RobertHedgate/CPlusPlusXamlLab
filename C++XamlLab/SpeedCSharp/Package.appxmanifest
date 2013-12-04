@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
 
-  <Identity Name="7233415c-9491-47a5-bf8b-2d82f4117551"
+  <Identity Name="111018ff-ba07-46e2-b9e9-0feb0c67375f"
             Publisher="CN=Robert"
             Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>C++XamlLab</DisplayName>
+    <DisplayName>SpeedCSharp</DisplayName>
     <PublisherDisplayName>Robert</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -23,12 +23,12 @@
   <Applications>
     <Application Id="App"
         Executable="$targetnametoken$.exe"
-        EntryPoint="C__XamlLab.App">
+        EntryPoint="SpeedCSharp.App">
         <m2:VisualElements
-            DisplayName="C++XamlLab"
+            DisplayName="SpeedCSharp"
             Square150x150Logo="Assets\Logo.png"
             Square30x30Logo="Assets\SmallLogo.png"
-            Description="C++XamlLab"
+            Description="SpeedCSharp"
             ForegroundText="light"
             BackgroundColor="#464646">
             <m2:SplashScreen Image="Assets\SplashScreen.png" />
