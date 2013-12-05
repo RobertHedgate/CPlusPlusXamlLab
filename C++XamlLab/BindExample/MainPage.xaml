@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="BindExample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BindExample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ListView x:Name="myListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="{Binding Name}" FontSize="20" />
+                        <TextBlock Text="{Binding Phone}" FontSize="12" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Click Me" FontSize="40" VerticalAlignment="Top"/>
+            <TextBlock Grid.Column="1" FontSize="40" Text="TODO: Change this text on click" Margin="10"/>
+            <TextBlock Grid.Row="1" Grid.Column="1" FontSize="40" Text="TODO: Bind this to Name" Margin="10"/>
+            <TextBlock Grid.Row="1" Grid.Column="2" FontSize="40" Text="TODO: Bind this to Phone" Margin="10"/>
+            <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" FontSize="30" Text="TODO: Bind this to Name and change it on click using INotify..." Margin="10"/>
+        </Grid>
+    </Grid>
+</Page>
