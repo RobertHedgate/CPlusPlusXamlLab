@@ -1,0 +1,5 @@
+http://msdn.microsoft.com/en-us/library/windows/apps/dn263168.aspx
+http://msdn.microsoft.com/en-us/magazine/jj651573.aspx
+http://msdn.microsoft.com/en-us/library/windows/apps/hh758320.aspx
+
+http://blogs.msdn.com/b/jerrynixon/archive/2012/02/20/c-for-c-developers.aspx
